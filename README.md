@@ -1,4 +1,4 @@
 # Generalized Linear Regression Model Fitting on Auditory Neural Data
 
 ### Introduction
-This iPython Notebook details the use of the generalized linear regression model to fit auditory neural data. Experimentally obtained, the auditory data represents the hearing neural activity given a sonic input. 
+This iPython Notebook details the use of the generalized linear regression model to fit auditory neural data. Experimentally obtained, the auditory data represents the hearing neural activity given a sonic input. Point processing is performed to obtain the neural firing rates which are used in the autoregressive regressor matrix. AIC and MDL penalties are then included in the penalized negative log likelihood v. model order plot to obtain the optimal autoregressive model order. KS plots are used to assess goodness of fit.
